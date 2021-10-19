@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+
+/* .col-lg-2 col-md-2 col-sm-2 col-xs-1 {
+    background-color: green;
+} */
+
+.col-2 {
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-evenly;
+    /* padding: 20px; */
+    background-color: crimson;
+    /* vertical-align: center; */
+    width: 100%;
+    margin: auto;
+    height: 100vh;
+}
+
+#myForm {
+    background-color: cyan;
+    padding: 50px;
+    width: 50%;
+    /* height: 100vh; */
+    /* text-align: center; */
+    float: left;
+    box-shadow: 1px 1px 1px 1px rgba(rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), alpha);
+}
+
+table {
+    background-color: darkgoldenrod;
+    width: 50%;
+    padding: 20px;
+    /* height: 100vh; */
+}
+
+td {
+    background-color: darkgray;
+    border-collapse: collapse;
+}
+
+tr {
+    padding-left: 20px;
+}
+
+label {
+    border: 2px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 20px;
+}
+
+input {
+    border: 1px solid red;
+    /* padding-bottom: 20px; */
+    padding-top: 10px;
+    text-align: center;
+    /* float: left; */
+}
